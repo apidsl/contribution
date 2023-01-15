@@ -1,5 +1,5 @@
 ./MD/MENU.md
-./MD/ABOUT.md
+#./MD/ABOUT.md
 ./MD/APIFOUNDATION.md
 ./MD/CONTRIBUTION.md
 ./MD/GIT.md

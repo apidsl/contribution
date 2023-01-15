@@ -13,9 +13,6 @@
 + [LICENSE](../LICENSE)
 
 
-# [contribution.apidsl.com](https://contribution.apidsl.com/)
-
-
 
 ## APIfoundation [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/contribution/edit/main/MD/APIFOUNDATION.md)
 
