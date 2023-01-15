@@ -1,6 +1,12 @@
 
 ## About flatedit [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/contribution/edit/main/MD/FLATEDIT.md)
 
+Edit documentation with flatedit
+```bash
+echo "./DOCS/MENU.md" > "flatedit.txt"
+echo "./DOCS/ABOUT.md" >> "flatedit.txt"
+echo "./DOCS/FOOT.md" >> "flatedit.txt"
+```
 
 ### Dependencies
 
