@@ -16,9 +16,9 @@ Edit documentation with flatedit
 ```bash
 echo '#!/bin/bash' > 'readme'
 echo './flatedit/readme.sh readme.txt' > 'readme'
-echo "./DOCS/MENU.md" >> "readme.txt"
-echo "./DOCS/ABOUT.md" >> "readme.txt"
-echo "./DOCS/FOOT.md" >> "readme.txt"
+echo "./MD/MENU.md" >> "readme.txt"
+echo "./MD/ABOUT.md" >> "readme.txt"
+echo "./MD/FOOT.md" >> "readme.txt"
 ```
 
 ### Update documentation

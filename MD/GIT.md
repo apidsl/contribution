@@ -1,5 +1,5 @@
 
-## Contribution with GIT [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/inframonit/bash/edit/main/CONTRIBUTION/GIT.md)
+## Contribution with GIT [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/contribution/edit/main/CONTRIBUTION/GIT.md)
 
 problem with local repositories
 ```bash

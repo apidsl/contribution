@@ -34,9 +34,9 @@ Edit documentation with flatedit
 ```bash
 echo '#!/bin/bash' > 'readme'
 echo './flatedit/readme.sh readme.txt' > 'readme'
-echo "./DOCS/MENU.md" >> "readme.txt"
-echo "./DOCS/ABOUT.md" >> "readme.txt"
-echo "./DOCS/FOOT.md" >> "readme.txt"
+echo "./MD/MENU.md" >> "readme.txt"
+echo "./MD/ABOUT.md" >> "readme.txt"
+echo "./MD/FOOT.md" >> "readme.txt"
 ```
 
 ### Update documentation
@@ -82,7 +82,7 @@ OR
 ```
 
 
-## Contribution with GIT [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/inframonit/bash/edit/main/CONTRIBUTION/GIT.md)
+## Contribution with GIT [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/contribution/edit/main/CONTRIBUTION/GIT.md)
 
 problem with local repositories
 ```bash
@@ -145,22 +145,91 @@ OR
 ```
 
 
+## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/contribution/edit/main/MD/INSTALL.md)
+
+
+
+
+## Start usage [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/contribution/edit/main/CONTRIBUTION/START.md)
+
+### Update documentation
+
+```bash
+ ./readme
+```
+
+Config project file
+
+The config file: **.apifork** can be another, e.g. **projects.txt**
+
+Just change the first line in  **.apifork** on **projects.txt**
+```bash
+projects.txt
+```
+
+
+### install
+
+[minsungson/GitHub-cURL: A guide to installing files from GitHub repos in terminal using cURL](https://github.com/minsungson/GitHub-cURL)
+
+```bash
+./apifork install
+```
+OR
+
+```bash
+./apifork
+```
+
+### update
+
+```bash
+./apifork update
+```
+
+
+### remove
+
+```bash
+./apifork remove
+```
+
+
+## Update project [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/contribution/edit/main/CONTRIBUTION/UPDATE.md)
+
+### Update documentation
+
+```bash
+ ./readme
+```
+
+Config project file
+
+The config file: **.apifork** can be another, e.g. **projects.txt**
+
+Just change the first line in  **.apifork** on **projects.txt**
+```bash
+projects.txt
+```
+
+
+
 ## About flatedit [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/contribution/edit/main/MD/FLATEDIT.md)
 
 Edit documentation with flatedit
 ```bash
-echo "./DOCS/MENU.md" > "flatedit.txt"
-echo "./DOCS/ABOUT.md" >> "flatedit.txt"
-echo "./DOCS/FOOT.md" >> "flatedit.txt"
+echo "./MD/MENU.md" > "flatedit.txt"
+echo "./MD/ABOUT.md" >> "flatedit.txt"
+echo "./MD/FOOT.md" >> "flatedit.txt"
 ```
 
 ### Dependencies
 
 projects list [**readme1.txt**](readme1.txt)
 ```
-./DOCS/MENU.md
-../bash/DOCS/TODO.md
-./DOCS/FOOT.md
+./MD/MENU.md
+../bash/MD/TODO.md
+./MD/FOOT.md
 ```
 [**readme.sh**](readme.sh)
 ```bash
@@ -173,9 +242,9 @@ With comments not to load this file
 
 projects list [**readme2.txt**](readme2.txt)
 ```
-./DOCS/MENU.md
-../bash/DOCS/TODO.md
-./DOCS/FOOT.md
+./MD/MENU.md
+../bash/MD/TODO.md
+./MD/FOOT.md
 ```
 [**readme.sh**](readme.sh)
 ```bash
@@ -190,9 +259,9 @@ Show not- & working/existing files
 
 projects list [**readme3.txt**](readme3.txt)
 ```
-./DOCS/MENU.md
-../bash/DOCS/TODO.md
-./DOCS/FOOT.md
+./MD/MENU.md
+../bash/MD/TODO.md
+./MD/FOOT.md
 ```
 [**readme.sh**](readme.sh)
 ```bash
