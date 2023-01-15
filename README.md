@@ -159,6 +159,37 @@ OR
 ## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/contribution/edit/main/MD/INSTALL.md)
 
 
+Solutions for development:
+
+### Install
+
+Install dependencies after created project
+```bash
+curl https://raw.githubusercontent.com/apifork/bash/main/apifork.sh -o apifork
+echo "https://github.com/flatedit/bash.git flatedit" > "apifork.dev.txt"
+./apifork install apifork.dev.txt
+```
+
+
+Install package list after created project
+```bash
+curl https://raw.githubusercontent.com/apipackage/bash/main/apipackage.sh -o apipackage
+echo "https://github.com/letwhois/bash apidsl/apidsl/bash letwhois" >> "apipackage.txt"
+./apipackage install
+```
+
+### install
+
+[minsungson/GitHub-cURL: A guide to installing files from GitHub repos in terminal using cURL](https://github.com/minsungson/GitHub-cURL)
+
+```bash
+./apifork install
+```
+OR
+
+```bash
+./apifork
+```
 
 
 ## Start usage [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/contribution/edit/main/CONTRIBUTION/START.md)
@@ -203,24 +234,6 @@ OR
 
 ```bash
 ./apifork remove
-```
-
-
-## Update project [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/contribution/edit/main/CONTRIBUTION/UPDATE.md)
-
-### Update documentation
-
-```bash
- ./readme
-```
-
-Config project file
-
-The config file: **.apifork** can be another, e.g. **projects.txt**
-
-Just change the first line in  **.apifork** on **projects.txt**
-```bash
-projects.txt
 ```
 
 
@@ -278,4 +291,66 @@ projects list [**readme3.txt**](readme3.txt)
 ```bash
 ./flatedit/readme.md readme3.txt
 ```
+
+
+## PLAINEDIT [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/contribution/edit/main/MD/PLAINEDIT.md)
+
+
+
+Edit documentation in 2 steps, first make the outputs over **plainedit.sh**
+Create docs over **readme.sh**
+
+list of projects
+```bash
+./plainedit.sh
+```
+
+Update html over plainedit
+
+```bash
+./plainedit.sh debug
+```
+```bash
+./plainedit.sh deployment
+```
+```bash
+./plainedit.sh api
+```
+```bash
+./plainedit.sh client
+```
+```bash
+./plainedit.sh path
+```
+```bash
+./plainedit.sh whois
+```
+```bash
+./plainedit.sh loop
+```
+```bash
+./plainedit.sh monitoring
+```
+```bash
+./plainedit.sh screenshot
+```
+
+
+Update documentation
+
+```bash
+./readme.sh
+```
+
+
+
+# Tags
+
++ scripts
++ language
+
+---
+
++ [apidsl/examples](https://github.com/apidsl/contribution)
++ [contribution.apidsl.com](https://contribution.apidsl.com)
 

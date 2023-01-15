@@ -7,3 +7,5 @@
 ./MD/START.md
 ./MD/UPDATE.md
 ./MD/FLATEDIT.md
+./MD/PLAINEDIT.md
+./MD/FOOT.md
