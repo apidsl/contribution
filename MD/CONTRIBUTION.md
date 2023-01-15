@@ -1,5 +1,5 @@
 
-## Contribution [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/inframonit/bash/edit/main/DOCS/CONTRIBUTION.md)
+## Contribution [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/contribution/edit/main/MD/CONTRIBUTION.md)
 
 git config --global --add safe.directory /media/tom/projects/apidsl/docs
 

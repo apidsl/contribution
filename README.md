@@ -3,7 +3,7 @@
 
 
 
-## APIfoundation [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/docs/edit/main/DOCS/APIFOUNDATION.md)
+## APIfoundation [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/contribution/edit/main/MD/APIFOUNDATION.md)
 
 Here are 3 levels of apifoundation solutions
 + apifork
@@ -17,7 +17,7 @@ Here are 3 levels of apifoundation solutions
 **apidsl** - to use it over hi level domain language 
 
 
-## Contribution [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/inframonit/bash/edit/main/DOCS/CONTRIBUTION.md)
+## Contribution [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/contribution/edit/main/MD/CONTRIBUTION.md)
 
 git config --global --add safe.directory /media/tom/projects/apidsl/docs
 
@@ -82,7 +82,7 @@ OR
 ```
 
 
-## About flatedit [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/docs/edit/main/DOCS/FLATEDIT.md)
+## About flatedit [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/apidsl/contribution/edit/main/MD/FLATEDIT.md)
 
 
 ### Dependencies
